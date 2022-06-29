@@ -22,7 +22,7 @@ jobs:
 
       - name: Wilco checks
         id: Wilco
-        uses: trywilco/actions@main
+        uses: trywilco/actions@stella-machine
         with:
           owner: ${{ github.repository_owner }}
   Lint:
